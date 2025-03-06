@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartita</title>
+    <link rel="stylesheet" href="./Carta/carta.css">
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <button id="retroceder"><ion-icon name="chevron-back-outline"></ion-icon>Retroceder</button>
+
+    <div class="mensaje-contenedor">
+        <div class="carta">
+            <h1>Para mi Lucianita hermosa 💖</h1>
+            <div class="carta-scroll" id="contenidoCarta">Cargando carta...</div>
+        </div>
+    </div>
+
+    <input id="btnFinalizar" class="btnFinalizar" type="button" value="Finalizado">
+
+    <div id="popup" class="popup">
+        <div class="popup-content" id="contenidoFinalizado">
+            <h2>Gracias por leer mi carta 💖</h2>
+            <p>Espero que te haya gustado todo lo que escribí para ti. Eres lo mejor que me ha pasado. ✨</p>
+            <button id="cerrarPopup">Cerrar</button>
+        </div>
+    </div>
+    
+    <script src="javascript.js"></script>
+    <script src="Carta/cartita.js"></script>
+    <script src="popups.js"></script>
+</body>
+</html>
